@@ -11,20 +11,18 @@
 É necessário configurar o arquivo .env de acordo com seu banco de dados
 A chamamada para a API segue o seguinte padrão
 
-<p>Consulta Livros: <i>get</i>: http://{{URL_LOCAL}}/api/library </p>
-<p>Consulta um Livro<i>get</i>: http://{{URL_LOCAL}}/api/library/id</p>
-<p>Atualiza um Livro<i>put</i>: http://{{URL_LOCAL}}/api/library/id</p>
-<p>Deleta um Livro<i>get</i>: http://{{URL_LOCAL}}/api/library/id</p>
+<p>Consulta Livros->  <i>get</i>: http://{{URL_LOCAL}}/api/library </p>
+<p>Consulta um Livro->  <i>get</i>: http://{{URL_LOCAL}}/api/library/id</p>
+<p>Atualiza um Livro->  <i>put</i>: http://{{URL_LOCAL}}/api/library/id</p>
+<p>Deleta um Livro->  <i>delete</i>: http://{{URL_LOCAL}}/api/library/id</p>
 * URL_LOCAL deve configurar qual será o endPoint
 
-## Contributing
+--Colletion para execução no Postman
+https://www.getpostman.com/collections/e6ef94c136d23f252ed3
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-## Security Vulnerabilities
+## Migrations
+É necessário executar as migrates para a criação do banco de dados
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+λ php artisan migrate
 
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
