@@ -26,3 +26,9 @@ https://www.getpostman.com/collections/e6ef94c136d23f252ed3
 
 λ php artisan migrate
 
+## Validaçoes
+<p>A API não possui validações de  envio em branco</p>
+<p>As validações existentes na API são apena para verificar se existe o livro na biblioteca ou não quando atualiza ou deleta um livro</p>
+
+## Obeservações
+A Chamada de DELETE esta deletando o produto do banco de dados, embora essa pratica não seja comum no mundo corporativo, o que na verdade deveria ser um <i>sof delete<i>.
